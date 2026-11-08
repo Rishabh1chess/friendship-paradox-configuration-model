@@ -1,0 +1,111 @@
+{
+  "n_main": 100000,
+  "seed": 168,
+  "poisson_mean_degree_theory": 4.0,
+  "poisson_mean_degree_observed": 3.9987,
+  "poisson_neighbour_mean_theory": 5.0,
+  "poisson_neighbour_mean_observed": 4.9931,
+  "poisson_tv_vs_plain_degree_law": 0.1952,
+  "poisson_tv_vs_size_biased_law": 0.0039,
+  "poisson_share_nodes_below_their_neighbours": 0.6521,
+  "powerlaw_mean_degree_theory": 4.3854,
+  "powerlaw_mean_degree_observed": 4.4009,
+  "powerlaw_neighbour_mean_theory": 21.516,
+  "powerlaw_neighbour_mean_observed": 21.7533,
+  "powerlaw_tv_vs_plain_degree_law": 0.3514,
+  "powerlaw_tv_vs_size_biased_law": 0.0487,
+  "powerlaw_share_nodes_below_their_neighbours": 0.8928,
+  "scaling": {
+    "n": [
+      1000,
+      2000,
+      4000,
+      8000,
+      16000,
+      32000,
+      64000
+    ],
+    "reps": 16,
+    "poisson_triangles_mean": [
+      10.812,
+      8.25,
+      8.875,
+      9.625,
+      10.188,
+      10.875,
+      10.375
+    ],
+    "poisson_share_nodes_on_triangle": [
+      0.03075,
+      0.012313,
+      0.006625,
+      0.003578,
+      0.001906,
+      0.00102,
+      0.000486
+    ],
+    "poisson_tv_size_biased": [
+      0.0431,
+      0.0341,
+      0.0216,
+      0.0152,
+      0.0104,
+      0.0065,
+      0.0055
+    ],
+    "poisson_tv_plain": [
+      0.1966,
+      0.2031,
+      0.1977,
+      0.1988,
+      0.196,
+      0.1961,
+      0.1964
+    ],
+    "poisson_triangles_theory": 10.667,
+    "powerlaw_triangles_mean": [
+      499.438,
+      639.312,
+      719.562,
+      887.938,
+      944.812,
+      1217.562,
+      1350.0
+    ],
+    "powerlaw_share_nodes_on_triangle": [
+      0.232563,
+      0.160125,
+      0.103047,
+      0.072844,
+      0.046508,
+      0.033063,
+      0.021781
+    ],
+    "powerlaw_tv_size_biased": [
+      0.2473,
+      0.1948,
+      0.1525,
+      0.1221,
+      0.0973,
+      0.0781,
+      0.0574
+    ],
+    "powerlaw_tv_plain": [
+      0.3876,
+      0.371,
+      0.3555,
+      0.3512,
+      0.3445,
+      0.3479,
+      0.351
+    ],
+    "powerlaw_triangles_theory": 1439.224
+  },
+  "largest_n": 64000,
+  "poisson_triangles_at_largest_n": 10.375,
+  "poisson_triangles_theory": 10.667,
+  "poisson_share_on_triangle_at_largest_n": 0.000486,
+  "powerlaw_triangles_at_largest_n": 1350.0,
+  "powerlaw_triangles_theory": 1439.224,
+  "powerlaw_share_on_triangle_at_largest_n": 0.021781
+}
